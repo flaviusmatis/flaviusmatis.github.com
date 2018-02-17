@@ -31,6 +31,8 @@ h1 {
 	font-weight: 700;
 	font-size: 2.5em;
 	font-family: "Allan", sans-serif;
+	white-space: nowrap;
+	overflow: visible;
 }
 
 .avatar {
@@ -64,4 +66,10 @@ p.spacer {
 	max-width: 760px;
 	padding: 3em;
 	box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+	.content {
+		padding: 2em;
+	}
 }
