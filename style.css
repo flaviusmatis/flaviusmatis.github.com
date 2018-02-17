@@ -37,28 +37,25 @@ strong {
 }
 
 h1 {
-	padding: 0 20px 0 0;
+	padding: 0 20px 20px 0;
 	border-bottom: 1px dotted #999;
 	margin: 0 0 20px 0;
-	position: relative;
 	font-weight: 700;
-	font-size: 3em;
+	font-size: 2.5em;
 	font-family: "Allan", sans-serif;
-	text-shadow: 1px 2px 0 rgba(255,255,255,0.8);
 }
 
 .avatar {
 	border-radius: 50%;
-	position: absolute;
-	top: 45px;
-	left: 30px;
-	box-shadow: 1px 1px 2px rgba(0,0,0,0.3);
-	max-width: 80px;
+	max-width: 100px;
+	vertical-align: middle;
+	margin-right: 0.5em;
+
 }
 
 h2 {
-	font-weight: 600;
-	font-size: 1.5em;
+	font-weight: 300;
+	font-size: 1.2em;
 	padding: 0 20px 5px 0;
 	margin-top: 0;
 	border-bottom: 1px dotted #999;
@@ -77,8 +74,6 @@ p.spacer {
 
 .content {
 	max-width: 760px;
-	padding: 10px 40px 15px 70px;
-	margin: 20px 0 15px 70px;
-	border-left: 1px dotted #999;
+	padding: 3em;
 	box-sizing: border-box;
 }
